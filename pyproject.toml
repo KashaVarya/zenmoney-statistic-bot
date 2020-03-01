@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "zenmoney-statistic-bot"
+version = "0.1.0"
+description = ""
+authors = ["VaryaKasha <varyaxx@gmail.com>"]
+license = "MIT License"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+python-telegram-bot = "^12.4.2"
+zenmoney = "^0.9"
+python-dotenv = "^0.12.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
